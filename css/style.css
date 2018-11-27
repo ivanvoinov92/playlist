@@ -1,0 +1,123 @@
+body{
+background: url(https://images.wallpaperscraft.ru/image/mikshernyj_pult_ustanovka_muzyka_114981_1920x1200.jpg) no-repeat 100%;
+background-attachment: fixed;
+background-size: cover;
+min-height: 100vh;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+p {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+.ba-playlist-title {
+	text-align: center;
+}
+
+.ba-playlist {
+    background: #fff;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(255, 206, 206, 0.82);
+}
+
+.ba-playlist-directory {
+	list-style: none;
+	padding: 15px;
+}
+
+.ba-plalist-artist {
+	font-size: 12px;
+	color: #ccc;
+	display: flex;
+}
+
+.ba-plalist-artist p + p {
+	border-left: 1px solid #ccc;
+	padding-left: 10px;
+}
+
+
+.ba-plalist-artist > p {
+	padding-right: 10px;
+}
+
+.ba-playlist-song {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.ba-playlist {
+    background: #fff;
+    max-width: 400px;
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(255, 206, 206, 0.82);
+}
+
+.ba-playlist-title {
+	padding: 30px;
+}
+
+.svg-inline--fa:hover {
+	cursor: pointer;
+	color: red;
+}

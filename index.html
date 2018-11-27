@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Playlist</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png"/>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+	<div class="ba-container">
+		<div class="ba-playlist">
+			<h1 class="ba-playlist-title">Playlist</h1>
+			<ul class="ba-playlist-directory">
+				<script class="text/template" id="track-templ">
+				<li class="ba-playlist-song">
+					<div class="ba-playlist-body">
+						<div class="ba-plalist-artist">
+								<p>{{time}}</p>
+								<p>{{author}}</p>
+						</div>
+						<div class="ba-playlist-track">
+								<h4>{{name}}</h4>
+						</div>
+					</div>
+					<i class="fas fa-heart"></i>
+				</li>
+			</script>
+			</ul>
+		</div>
+	</div>
+<script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
